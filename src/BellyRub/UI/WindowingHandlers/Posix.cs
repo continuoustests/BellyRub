@@ -17,8 +17,13 @@ namespace BellyRub.UI.WindowingHandlers
                         return;
                     }
                     var chunks = msg.Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries);
-                    if (chunks.Length >= 4 && chunks[3] == title)
-                        windowId = chunks[0];
+                    if (chunks.Length >= 4) {
+                        var initialSearchPoint = msg.IndexOf(chunks[2]);
+                        var start = msg.IndexOf(chunks[3], initialSearchPoint);
+                        var name = msg.Substring(start, msg.Length - start);
+                        if (name == title)
+                            windowId = chunks[0];
+                    }
                 }
             );
             if (windowId == null)
