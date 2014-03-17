@@ -28,3 +28,7 @@ AutoTest.VS.xml
 ldeploy.bat
 *_mm_cache.bin
 *.crunchsolution.*
+*.sublime-project
+*.sublime-workspace
+.OpenIDE/active.profile
+oi-definitions.json
