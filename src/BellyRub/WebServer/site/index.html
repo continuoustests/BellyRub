@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+	<title>BellyRub</title>
+
+    <script type="text/javascript" src="bellyrub-client.js"></script>
+
+     <script type="text/javascript">
+        window.moveTo(100, 100);
+        var client = createBellyRubClient();
+        client.onconnected = function() {
+            client.request('belly:get-bellyrub-client-content', {}, function (msg) {
+                console.log(msg);
+                document.getElementById('jsclientcode').innerHTML = msg.content;
+            });
+        };
+        client.ondisconnected = function() {
+            console.log('disconnected');
+            // Fool firefox into thinking it can close the window
+            window.open('','_parent',''); 
+            window.close(); 
+        };
+        client.handlers['shutdown'] = function (body) {
+            client.disconnect();
+        };
+
+        window.onbeforeunload = function () {
+            client.disconnect();
+        };
+        console.log('connecting..');
+        client.connect(); 
+    </script>   
+</head>
+<body>
+<div style=" text-align: center; top: 50%; position: absolute; width: 98%;">
+    BellyRub, curing desktop UI tummy aches.
+    <p>
+    You are seeing this page because you have not yet set up a files directory.
+    </p>
+    <div id="jsclientcode"></div>
+</div>
+</body>
+</html>

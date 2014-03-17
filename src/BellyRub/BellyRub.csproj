@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{aebef5a2-ac86-11e3-8692-c8f7334eceba}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BellyRub</RootNamespace>
+    <AssemblyName>BellyRub</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="..\..\lib\Nancy\Nancy.dll" />
+    <Reference Include="..\..\lib\Nancy\Nancy.Hosting.Self.dll" />
+    <Reference Include="..\..\lib\websocket-sharp\websocket-sharp.dll" />
+    <Reference Include="..\..\lib\JSON.NET\Net40\Newtonsoft.Json.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BellyEngine.cs" />
+    <Compile Include="WebServer\Server.cs" />
+    <Compile Include="Messaging\Channel.cs" />
+    <Compile Include="Messaging\LowerCaseSerializer.cs" />
+    <Compile Include="UI\Browser.cs" />
+    <Compile Include="UI\BrowserLocator.cs" />
+    <Compile Include="UI\BrowserInstance.cs" />
+    <Compile Include="UI\Windowing.cs" />
+    <Compile Include="UI\WindowingHandlers\Posix.cs" />
+    <Compile Include="UI\WindowingHandlers\WindowingHandler.cs" />
+    <Compile Include="Utils\OS.cs" />
+    <Compile Include="Utils\ProcessExtensions.cs" />
+    <Compile Include="UI\Point.cs" />
+    <Compile Include="UI\Size.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Folder Include="WebServer\" />
+    <Folder Include="WebServer\site\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebServer\site\index.html" />
+    <EmbeddedResource Include="WebServer\site\bellyrub-client.js" />
+  </ItemGroup>
+</Project>

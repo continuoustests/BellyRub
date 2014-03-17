@@ -1,0 +1,1624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"roo",
+				"RootDir"
+			],
+			[
+				"si",
+				"sizeArgs"
+			],
+			[
+				"pos",
+				"positionArgs"
+			],
+			[
+				"siz",
+				"Size"
+			],
+			[
+				"wind",
+				"windowNameFetcher"
+			],
+			[
+				"win",
+				"windowNameFetcher"
+			],
+			[
+				"Brow",
+				"Browser"
+			],
+			[
+				"Mes",
+				"Message"
+			],
+			[
+				"Wind",
+				"Windowing"
+			],
+			[
+				"Window",
+				"WindowingHandler"
+			],
+			[
+				"Brw",
+				"BrowserInstance"
+			],
+			[
+				"Br",
+				"BrowserInstance"
+			],
+			[
+				"disco",
+				"disconnect"
+			],
+			[
+				"send",
+				"Send"
+			],
+			[
+				"Belly",
+				"BellyRubClient"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
+				"reso",
+				"resourceFileName"
+			],
+			[
+				"write",
+				"writeDirectory"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Th",
+				"Thread"
+			],
+			[
+				"_ch",
+				"_channel"
+			],
+			[
+				"_ser",
+				"_server"
+			],
+			[
+				"_pre",
+				"_prepareForFocus"
+			],
+			[
+				"external",
+				"externalMessageReceived"
+			],
+			[
+				"selec",
+				"selectItem"
+			],
+			[
+				"sk",
+				"skipOneForward"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"cur",
+				"current"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"hand",
+				"handler"
+			],
+			[
+				"cli",
+				"clickLink"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"acti",
+				"activeLink"
+			],
+			[
+				"view",
+				"viewport_bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mess",
+				"messageHandlers"
+			],
+			[
+				"sele",
+				"selectedItem"
+			],
+			[
+				"Laun",
+				"Launchers"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"_bu",
+				"_buildMessages"
+			],
+			[
+				"_ses",
+				"_serverChatService"
+			],
+			[
+				"_h",
+				"_httpsv"
+			],
+			[
+				"_server",
+				"_serverServiceManager"
+			],
+			[
+				"Su",
+				"Subject"
+			],
+			[
+				"Key",
+				"KeyValuePair"
+			],
+			[
+				"WriteDe",
+				"WriteDebug"
+			],
+			[
+				"Log",
+				"LogMessage"
+			],
+			[
+				"runst",
+				"runstatus"
+			],
+			[
+				"String",
+				"StringBuilder"
+			],
+			[
+				"watch",
+				"watchdir"
+			],
+			[
+				"wat",
+				"watchdir"
+			],
+			[
+				"Hello",
+				"HelloModule"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"_Ev",
+				"_eventPointShutdownTriggered"
+			],
+			[
+				"_con",
+				"_config"
+			],
+			[
+				"Mock",
+				"MockRepository"
+			],
+			[
+				"getval",
+				"getValueItem"
+			],
+			[
+				"Conf",
+				"ConfigItem"
+			],
+			[
+				"insta",
+				"InstanceLocator"
+			],
+			[
+				"_",
+				"_instanceFileDirectory"
+			],
+			[
+				"Inst",
+				"InstanceLocator"
+			],
+			[
+				"confi",
+				"configsString"
+			],
+			[
+				"resu",
+				"results"
+			],
+			[
+				"Test",
+				"TestRunResults"
+			],
+			[
+				"config",
+				"configLocation"
+			],
+			[
+				"pattern",
+				"patterns"
+			],
+			[
+				"dire",
+				"directoryToWatch"
+			],
+			[
+				"wa",
+				"watchDirectory"
+			],
+			[
+				"Arg",
+				"ArgumentParser"
+			],
+			[
+				"argu",
+				"argument"
+			],
+			[
+				"local",
+				"localConfigPath"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"testl",
+				"testLocations"
+			],
+			[
+				"ma",
+				"matches"
+			],
+			[
+				"testpa",
+				"testpath"
+			],
+			[
+				"test",
+				"testLocations"
+			],
+			[
+				"Php",
+				"PhpFileConventionMatcher"
+			],
+			[
+				"PhpU",
+				"PhpUnitLiveParser"
+			],
+			[
+				"te",
+				"testNum"
+			],
+			[
+				"err",
+				"errors"
+			],
+			[
+				"Gettem",
+				"GetTempFileName()	String"
+			],
+			[
+				"par",
+				"parserTest"
+			],
+			[
+				"st",
+				"stackTraceToken"
+			],
+			[
+				"stack",
+				"stackTraceStart"
+			],
+			[
+				"msg",
+				"msgStackLine"
+			],
+			[
+				"msgst",
+				"msgStackLine"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"TestRun",
+				"TestRunResults"
+			],
+			[
+				"su",
+				"suite"
+			],
+			[
+				"sui",
+				"suites"
+			],
+			[
+				"Sele",
+				"SelectNodes(String)	XmlNodeList"
+			],
+			[
+				"phpun",
+				"phpunitatrun"
+			],
+			[
+				"read",
+				"ReadAllText(String)	String"
+			],
+			[
+				"Read",
+				"ReadToEnd()	String"
+			],
+			[
+				"Standa",
+				"StandardOutput	StreamReader"
+			],
+			[
+				"Child",
+				"FirstChild	XmlNode"
+			],
+			[
+				"get",
+				"getStackTrace"
+			],
+			[
+				"Get",
+				"getMessage"
+			],
+			[
+				"Chi",
+				"HasChildNodes	Boolean"
+			],
+			[
+				"ca",
+				"cases"
+			],
+			[
+				"php",
+				"phpFiles"
+			],
+			[
+				"_cli",
+				"_clientLock"
+			],
+			[
+				"text",
+				"textBoxContent"
+			],
+			[
+				"tex",
+				"textBoxContent"
+			],
+			[
+				"pic",
+				"pictureBoxLine"
+			],
+			[
+				"to",
+				"ToUpperInvariant()	String"
+			],
+			[
+				"App",
+				"AppendAllText(String, String)	Void"
+			],
+			[
+				"Runm",
+				"RunMessageType"
+			],
+			[
+				"Feed",
+				"FeedbackProvider"
+			],
+			[
+				"Cach",
+				"CacheBuildMessage"
+			],
+			[
+				"go",
+				"goToType"
+			],
+			[
+				"Debu",
+				"DebugTest"
+			],
+			[
+				"_go",
+				"_goToReference"
+			],
+			[
+				"Cache",
+				"CacheBuildMessage"
+			],
+			[
+				"Build",
+				"CacheBuildMessage"
+			],
+			[
+				"list",
+				"listViewFeedback"
+			],
+			[
+				"_goto",
+				"_goToReference"
+			],
+			[
+				"Debug",
+				"DebugTestArgs"
+			],
+			[
+				"remo",
+				"removeBuildItem"
+			],
+			[
+				"_remo",
+				"_removeBuildItem"
+			],
+			[
+				"rem",
+				"removeTest"
+			],
+			[
+				"prep",
+				"prepareForFocus"
+			],
+			[
+				"Event",
+				"EventArgs"
+			],
+			[
+				"build",
+				"builder"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/BellyEngine.cs",
+			"settings":
+			{
+				"buffer_size": 4129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub.TestClient/Program.cs",
+			"settings":
+			{
+				"buffer_size": 1047,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/Messaging/Channel.cs",
+			"settings":
+			{
+				"buffer_size": 5373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/UI/Browser.cs",
+			"settings":
+			{
+				"buffer_size": 1423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/UI/Windowing.cs",
+			"settings":
+			{
+				"buffer_size": 426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/Utils/OS.cs",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/UI/BrowserLocator.cs",
+			"settings":
+			{
+				"buffer_size": 922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/WebServer/site/index.html",
+			"settings":
+			{
+				"buffer_size": 1306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/UI/WindowingHandlers/WindowingHandler.cs",
+			"settings":
+			{
+				"buffer_size": 142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/WebServer/site/bellyrub-client.js",
+			"settings":
+			{
+				"buffer_size": 2321,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/UI/BrowserInstance.cs",
+			"settings":
+			{
+				"buffer_size": 1107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/WebServer/Server.cs",
+			"settings":
+			{
+				"buffer_size": 3307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ack/src/BellyRub/src/BellyRub/UI/WindowingHandlers/Posix.cs",
+			"settings":
+			{
+				"buffer_size": 1085,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ack/src/BellyRub/src/BellyRub/UI/Size.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/UI/Point.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/Messaging/Channel.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/Utils/ProcessExtensions.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/UI/WindowingHandler/Posix.cs",
+		"/home/ack/src/BellyRub/.OpenIDE/profile.ack/oi-definitions.json",
+		"/home/ack/src/BellyRub/.OpenIDE/oi-definitions.json",
+		"/home/ack/src/BellyRub/lib/JSON.NET/Net40/Newtonsoft.Json.xml",
+		"/home/ack/src/BellyRub/lib/JSON.NET/Net35/Newtonsoft.Json.xml",
+		"/home/ack/src/BellyRub/.OpenIDE/active.profile",
+		"/home/ack/src/BellyRub/src/BellyRub/BellyEngine.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/UI/Browser.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/WebServer/Server.cs",
+		"/home/ack/src/BellyRub/src/BellyRub.TestClient/Program.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/Messaging/LowerCaseSerializer.cs",
+		"/home/ack/src/BellyRub/src/BellyRub/WebServer/site/index.html",
+		"/home/ack/src/BellyRub/src/BellyRub/WebServer/site/bellyrub-client.js",
+		"/home/ack/src/AutoTest.Net/addins/VisualStudio/AutoTest.VS.Util/Builds/VSBuildRunner.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.TestRunner/AutoTest.TestRunners.Tests/Communication/When_two_servers_sends_messages_through_a_junction.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Presenters/RunFeedbackPresenter.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.WinForms/IInformationForm.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/bin/AutoTest.Net/site/css/main.css",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/bin/AutoTest.Net/site/index.html",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/bin/AutoTest.Net/site/js/autotest-client.js",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/site/js/autotest-client.js",
+		"/home/ack/src/AutoTest.Net/ReleaseBinaries/site/js/autotest-client.js",
+		"/home/ack/src/AutoTest.Net/addins/VisualStudio/AutoTest.VS.Util/Builds/OutputParser.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/AutoTest.Server.csproj",
+		"/home/ack/src/AutoTest.Net/AutoTest.NET.sln.DotSettings.user",
+		"/home/ack/src/AutoTest.Net/AutoTest.NET.sln",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.TestRunner/Plugins/AutoTest.TestRunners.SimpleTesting/AutoTest.TestRunners.SimpleTesting.csproj",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/AutoTest.config.template",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.UI/AutoTest.UI.csproj",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/Communication/MessageEndpoint.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Configuration/Config.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.WinForms/FeedbackForm.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.WinForms/Program.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Launchers/IApplicatonLauncher.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Caching/Projects/Project.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Messaging/MessageBus.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.UI/FeedbackProvider.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/DebugLog/DebugWriter.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/DebugLog/Debug.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Configuration/BootStrapper.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/FileSystem/DirectoryWatcher.cs",
+		"/home/ack/src/AutoTest.Net/addins/VisualStudio/AutoTest.VS.Util/Navigation/TypeNavigation.cs",
+		"/home/ack/src/AutoTest.Net/addins/VisualStudio/AutoTest.VSAddin/FeedbackWindow.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Presenters/MessageProxy.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/bin/AutoTest.Net/site/js/alchemy-client.js",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.UI/ImageStates.cs",
+		"/home/ack/src/AmarokPlayer/src/client/js/index.js",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Messages/IMessageForwarder.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.TestRunner/AutoTest.TestRunners/Program.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/bellyrub/Engine.cs",
+		"/home/ack/src/AutoTest.Net/lib/Gallio/RSpec/libs/rspec-1.2.7/examples/passing/stubbing_example.rb",
+		"/home/ack/src/AutoTest.Net/SolutionVersion.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Caching/RunResultCache/BuildItem.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Messages/TestResult.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Messages/CacheTestMessage.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/DebugLog/IWriteDebugInfo.cs",
+		"/home/ack/src/AutoTest.Net/lib/NUnit/src/NUnit-2.5.9.10348/src/ClientUtilities/util/ConsoleWriter.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Caching/RunResultCache/IRunResultCache.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.WinForms/AutoTest.WinForms.csproj",
+		"/home/ack/src/AutoTest.Net/lib/Castle.Windsor/Castle.Windsor.xml",
+		"/home/ack/src/AutoTest.Net/lib/InnoSetup5/WizModernImage-IS.bmp",
+		"/home/ack/src/AutoTest.Net/lib/InnoSetup5/whatsnew.htm",
+		"/home/ack/src/AutoTest.Net/build/environmentBuilder.step",
+		"/home/ack/src/AutoTest.Net/lib/Gallio/RSpec/libs/rspec-1.2.7/lib/spec/runner/example_group_runner.rb",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Console/Program.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Console/ConsoleApplication.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Console/IConsoleApplication.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.UI/ListItemBehaviourHandler.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/ForeignLanguageProviders/Php/PhpRunHandler.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.UI/RunFeedback.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/HiddenGetFocusForm.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/BuildRunners/MSBuildRunner.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/ForeignLanguageProviders/Php/PhpUnitRunner.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/ForeignLanguageProviders/Php/PhpUnitLiveParser.cs",
+		"/home/ack/src/AutoTest.Net/lib/NUnit/src/NUnit-2.6.0.12051/doc/index.html",
+		"/home/ack/src/AutoTest.Net/lib/NUnit/src/NUnit-2.5.9.10348/doc/index.html",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.WinForms/InformationForm.Designer.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Notifiers/ISendNotifications.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Messages/IStackLine.cs",
+		"/home/ack/src/AutoTest.Net/AutoTest.Net.sublime-project",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Configuration/ServiceLocator.cs",
+		"/home/ack/src/AutoTest.Net/Settings/SettingsFileReadMe.txt",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Messaging/MessageConsumers/PhpFileChangeConsumer.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/ForeignLanguageProviders/Php/PhpUnitParseErrorParser.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Test/Core/Messaging/MessageConsumers/JUnitXmlParserTests.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/ForeignLanguageProviders/Php/JUnitXmlParser.cs",
+		"/home/ack/src/melin/melin-e-portal/vendor/willdurand/geocoder/tests/Geocoder/Tests/Result/DefaultResultFactoryTest.php",
+		"/home/ack/src/melin/melin-e-portal/vendor/bshaffer/oauth2-server-php/test/lib/OAuth2/Request/TestRequest.php",
+		"/home/ack/src/melin/melin-e-portal/app/logs/test.log",
+		"/home/ack/src/melin/melin-e-portal/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/ToolEvents.php",
+		"/home/ack/src/melin/melin-e-portal/vendor/gedmo/doctrine-extensions/doc/transaction-safety.md",
+		"/home/ack/src/melin/melin-e-portal/.buildpack/envrc",
+		"/home/ack/src/melin/melin-e-portal/vendor/jms/serializer/doc/event_system.rst",
+		"/home/ack/src/melin/melin-e-portal/vendor/beberlei/lite-cqrs/tests/LiteCQRS/EventStore/EventStreamTest.php",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/FileSystem/PathParser.cs",
+		"/home/ack/src/AutoTest.Net/addins/VisualStudio/AutoTest.VS.Util/DTEHacks/ProjectHandling.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Server/Program.cs",
+		"/home/ack/src/AutoTestExtensions/src/AutoTest.VMHost.Console/Program.cs",
+		"/home/ack/src/AutoTestExtensions/src/AutoTest.VM/Program.cs",
+		"/home/ack/src/AutoTestExtensions/src/AutoTest.Diagnostics/Program.cs",
+		"/home/ack/src/AutoTestExtensions/LicenseLayout2/keytestcon/Program.cs",
+		"/home/ack/src/AutoTestExtensions/lib/SyntaxTree/Microsoft.Cci.Pdb/PdbReader.cs",
+		"/home/ack/src/AutoTestExtensions/package.bat",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Processes/ProcessExtensions.cs",
+		"/home/ack/src/AutoTestExtensions/src/ContinuousTests/RunFeedbackForm.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Launchers/EditorEngineLauncher.cs",
+		"/home/ack/src/AutoTestExtensions/src/AutoTest.GtkSharp/Main.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.TestRunner/AutoTest.TestRunners.Shared/IAutoTestNetTestRunner.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.TestRunner/AutoTest.TestRunners/SubDomainRunner.cs",
+		"/home/ack/src/Seekuence/v3/Kernel/Seekuence.Kernel/Processes/ProcessExtensions.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.TestRunner/AutoTest.TestRunners/TestRunner.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Messaging/MessageConsumers/BinaryFileChangeConsumer.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Configuration/CoreSection.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Configuration/IConfiguration.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Messaging/MessageConsumers/FileChangeConsumer.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Test/Core/Configuration/ConfigTest.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Test/Core/Messaging/MessageConsumers/FileChangeConsumerTest.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Test/Core/Messaging/MessageConsumers/BinaryFileChangeConsumerTest.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Messaging/MessageConsumers/AssemblyChangeConsumer.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Test/AutoTest.ForTests.config",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Configuration/DIContainer.cs",
+		"/home/ack/src/AutoTest.Net/addins/VisualStudio/AutoTest.VSAddin/Listeners/FeedbackListener.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Caching/RunResultCache/TestItem.cs",
+		"/home/ack/src/AutoTest.Net/src/AutoTest.Core/Caching/RunResultCache/RunResultCache.cs"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/home/ack/src/AutoTestExtensions",
+			"/home/ack/src/AutoTest.Net",
+			"/home/ack/src/AutoTestExtensions",
+			"/home/ack/src/AutoTestExtensions/src/AutoTest.VMHost.Tests"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rootdir",
+			"focus",
+			"selectedItem",
+			"selectItem",
+			"cache",
+			"ws",
+			"handlers",
+			"atfeedback",
+			"$.",
+			"ignored",
+			"failures",
+			"warnings",
+			"errors",
+			"run-com",
+			"OnGoToReference",
+			"goToReference",
+			"GoToReference",
+			"_updatePicture",
+			"OnUpdatePicture",
+			"websocket",
+			"wssv",
+			"_provider",
+			"FeedbackProvider",
+			"setloggeren",
+			"_logging",
+			"watch",
+			"debug",
+			"logging",
+			" { get; set; }",
+			"AlchemyChatServer",
+			"appServer",
+			"configuration",
+			"runfeedback",
+			"feedbackprovider",
+			"watch",
+			"\"",
+			"\\",
+			"\"",
+			"ConsumeMessage",
+			"EditorEngine",
+			"_visit",
+			"config",
+			"locator",
+			"editor",
+			"ExternalCommandMessage",
+			"external",
+			"tab",
+			"_removedtest",
+			"_removedTestLocator",
+			"EnabledDeltas()",
+			"EnableDeltas()",
+			"new {",
+			"_pattern",
+			"ConfigureApplication",
+			"parse",
+			"getPossibleCommandArgs",
+			"watcher",
+			"watch",
+			"mergeloca",
+			"getConfiguration",
+			"_testLocation",
+			"{0}",
+			"\"",
+			"\\",
+			"trimeMessage",
+			"\"",
+			"\\",
+			"\"",
+			"\\",
+			"\"",
+			"execute",
+			"foundOutputMarker",
+			"parseLine",
+			": error",
+			"EditorEngineMessage",
+			"\"EditorEngine\"",
+			"public static void",
+			"_client.Send(",
+			"_runcache",
+			"_bus.",
+			"_bus",
+			"_bus.Publish",
+			"Width",
+			"launcher",
+			"GoToReference",
+			"bleh",
+			"red",
+			"additem",
+			"add",
+			"red",
+			"debug",
+			"Handle",
+			"handle",
+			"Handle",
+			"handle",
+			"printMessage",
+			"_showErrors",
+			"forward",
+			"printmessage",
+			"addFeedbackItem",
+			"_addItem",
+			"_restoreSelected",
+			"CanGoToTypes",
+			"_restoreSelected",
+			"_removeBuildItem",
+			"_exists",
+			"_restoreSelected",
+			"})",
+			"debugtest",
+			"goToReference",
+			"GoToReference",
+			"goToReference",
+			"GoToReference",
+			"goToReference",
+			"goToType",
+			"GoToType",
+			"goToType",
+			"GoToType",
+			"goToType",
+			"GoToType",
+			"goToType",
+			"_goToType",
+			"goToType",
+			"GoToType",
+			"goToType",
+			"GoToType",
+			"_addItem",
+			"_storeSelected"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\\"",
+			"\\\\",
+			"\\\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/BellyEngine.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3314,
+								3314
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 110,
+							"vintage_lines.lines": 132,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1309.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/ack/src/BellyRub/src/BellyRub.TestClient/Program.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 34,
+							"vintage_lines.lines": 39,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 110.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/Messaging/Channel.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1780,
+								1780
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 60,
+							"vintage_lines.lines": 170,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/UI/Browser.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1422,
+								1422
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 46,
+							"vintage_lines.lines": 46,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 201.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/UI/Windowing.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"vintage_lines.line": 14,
+							"vintage_lines.lines": 18,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/Utils/OS.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"vintage_lines.line": 6,
+							"vintage_lines.lines": 14,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/UI/BrowserLocator.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"vintage_lines.line": 20,
+							"vintage_lines.lines": 32,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/WebServer/site/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								981,
+								981
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 30,
+							"vintage_lines.lines": 43,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/UI/WindowingHandlers/WindowingHandler.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"vintage_lines.line": 6,
+							"vintage_lines.lines": 8,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/WebServer/site/bellyrub-client.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 21,
+							"vintage_lines.lines": 66,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/UI/BrowserInstance.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"vintage_lines.line": 18,
+							"vintage_lines.lines": 34,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 47.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/WebServer/Server.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1492,
+								1492
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage_lines.line": 53,
+							"vintage_lines.lines": 106,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/home/ack/src/BellyRub/src/BellyRub/UI/WindowingHandlers/Posix.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								923,
+								923
+							]
+						],
+						"settings":
+						{
+							"line_numbers": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"vintage_lines.line": 28,
+							"vintage_lines.lines": 35,
+							"vintage_lines.mode": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "BellyRub.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				".js",
+				"src/BellyRub/WebServer/site/bellyrub-client.js"
+			],
+			[
+				"inde",
+				"src/BellyRub/WebServer/site/index.html"
+			],
+			[
+				"autotst.server",
+				"src/AutoTest.Server/AutoTest.Server.csproj"
+			],
+			[
+				"server.csproj",
+				"src/AutoTest.Server/AutoTest.Server.csproj"
+			],
+			[
+				"winforms",
+				"src/AutoTest.WinForms/AutoTest.WinForms.csproj"
+			],
+			[
+				"index.h",
+				"src/AutoTest.Server/bin/AutoTest.Net/site/index.html"
+			],
+			[
+				"autotest-ci",
+				"src/AutoTest.Server/bin/AutoTest.Net/site/js/autotest-client.js"
+			],
+			[
+				"phpru",
+				"src/AutoTest.Core/ForeignLanguageProviders/Php/PhpRunHandler.cs"
+			],
+			[
+				"progra",
+				"src/AutoTest.WinForms/Program.cs"
+			],
+			[
+				"process",
+				"src/AutoTest.Core/Processes/ProcessExtensions.cs"
+			],
+			[
+				"autotest.ui.cspr",
+				"src/AutoTest.UI/AutoTest.UI.csproj"
+			],
+			[
+				"config.cs",
+				"src/AutoTest.Core/Configuration/Config.cs"
+			],
+			[
+				"autotest.config.te",
+				"src/AutoTest.Core/AutoTest.config.template"
+			],
+			[
+				"autotest.conf",
+				"src/AutoTest.Core/AutoTest.config.template"
+			],
+			[
+				"autotest.forte",
+				"src/AutoTest.Test/AutoTest.ForTests.config"
+			],
+			[
+				"autotest.winforms.test.csproj",
+				"src/AutoTest.WinForms.Test/AutoTest.WinForms.Test.csproj"
+			],
+			[
+				"testresu",
+				"src/AutoTest.Messages/TestResult.cs"
+			],
+			[
+				"istackli",
+				"src/AutoTest.Messages/IStackLine.cs"
+			],
+			[
+				"testres",
+				"src/AutoTest.Messages/TestResult.cs"
+			],
+			[
+				"test.csproj",
+				"src/AutoTest.Test/AutoTest.Test.csproj"
+			],
+			[
+				"es",
+				"lib/NUnit/src/NUnit-2.5.9.10348/src/tests/test-utilities/MockTestEventSource.cs"
+			],
+			[
+				"msbuild_errors.txt",
+				"src/AutoTest.Test/TestResources/MSBuild/msbuild_errors.txt"
+			],
+			[
+				"buildsessionr",
+				"src/AutoTest.Core/BuildRunners/BuildSessionRunner.cs"
+			],
+			[
+				"buildrunner",
+				"src/AutoTest.Core/BuildRunners/MSBuildRunner.cs"
+			],
+			[
+				"autotest.config.tem",
+				"src/AutoTest.Core/AutoTest.config.template"
+			],
+			[
+				"projectchangecon",
+				"src/AutoTest.Core/Messaging/MessageConsumers/ProjectChangeConsumer.cs"
+			],
+			[
+				"feedbackfor",
+				"src/AutoTest.WinForms/FeedbackForm.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/src/melin/melin-e-portal/.OpenIDE/profile.ack/melin-e-portal.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
