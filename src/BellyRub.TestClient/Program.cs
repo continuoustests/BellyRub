@@ -1,6 +1,8 @@
 ﻿using System;
+using System.IO;
 using System.Dynamic;
 using System.Threading;
+using System.Reflection;
 using BellyRub.UI;
 
 namespace BellyRub.TestClient
@@ -9,7 +11,8 @@ namespace BellyRub.TestClient
 	{
 		static void Main(string[] args)
 		{
-            var engine = new BellyEngine();
+            var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "site");
+            var engine = new BellyEngine(path);
             Console.CancelKeyPress += (sender, e) => {
                 engine.Stop();
                 while (engine.HasConnectedClients) {

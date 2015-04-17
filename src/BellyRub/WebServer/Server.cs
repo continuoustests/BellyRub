@@ -45,7 +45,6 @@ namespace BellyRub.WebServer
             if (!Directory.Exists(RESTBootstrapper.RootDir()))
                 Directory.CreateDirectory(RESTBootstrapper.RootDir());
             writefile("index.html", RESTBootstrapper.RootDir());
-            writefile("bellyrub-client.js", RESTBootstrapper.RootDir());
         }
 
         private void writefile(string resourceFileName, string writeDirectory) {
@@ -62,6 +61,23 @@ namespace BellyRub.WebServer
             }
         }
 	}
+
+    public class ClientModule : NancyModule
+    {
+        public ClientModule()
+        {
+            Get["/js/bellyrub-client.js"] = _ =>
+            {
+                var assembly = Assembly.GetExecutingAssembly();
+                var resourceName = "BellyRub.WebServer.site.bellyrub-client.js";
+                using (Stream stream = assembly.GetManifestResourceStream(resourceName)) {
+                    using (StreamReader reader = new StreamReader(stream)) {
+                        return reader.ReadToEnd();
+                    }
+                }
+            };
+        }
+    }
 
     public class RESTBootstrapper : DefaultNancyBootstrapper
     {
