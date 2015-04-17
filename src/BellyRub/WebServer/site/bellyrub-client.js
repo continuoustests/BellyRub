@@ -8,6 +8,14 @@ var createBellyRubClient = function() {
     belly.onconnected = function () {
     };
     belly.ondisconnected = function () {
+        window.open('','_parent',''); 
+        window.close(); 
+    };
+    belly.handlers['shutdown'] = function (body) {
+        belly.disconnect();
+    }; 
+    window.onbeforeunload = function () {
+        belly.disconnect();
     };
     belly.connect = function () {
         var getParameters = function getUrlVars() {

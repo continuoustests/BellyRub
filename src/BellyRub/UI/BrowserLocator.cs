@@ -18,6 +18,15 @@ namespace BellyRub.UI
         }
 
         private BrowserInstance findInWindows() {
+            var pf = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);
+            if (File.Exists(Path.Combine(pf, "Google", "Chrome", "Application", "Chrome.exe"))) {
+                return 
+                    new BrowserInstance(
+                        Path.Combine(pf, "Google", "Chrome", "Application", "Chrome.exe"),
+                        "--app={{url}}",
+                        "--window-position={{x}},{{y}}",
+                        "--window-size={{width}},{{height}}");
+            }
             return null;
         }
 
@@ -29,14 +38,23 @@ namespace BellyRub.UI
                         "--app={{url}}",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
-            } else if (File.Exists("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")) {
-                new BrowserInstance(
-                        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            } else if (File.Exists("/usr/bin/chromium-browser")) {
+                return 
+                    new BrowserInstance(
+                        "/usr/bin/chromium-browser",
                         "--app={{url}}",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
             } else if (File.Exists("/usr/bin/firefox")) {
                 return new BrowserInstance("/usr/bin/firefox", "{{url}}", "", "");
+            } else if (File.Exists("/usr/bin/opera")) {
+                return new BrowserInstance("/usr/bin/opera", "{{url}}", "", "");
+            } else if (File.Exists("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")) {
+                new BrowserInstance(
+                        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                        "--app={{url}}",
+                        "--window-position={{x}},{{y}}",
+                        "--window-size={{width}},{{height}}"); 
             } else if (File.Exists("/Applications/Firefox.app/Contents/MacOS/firefox-bin")) {
                 return new BrowserInstance("/Applications/Firefox.app/Contents/MacOS/firefox-bin", "{{url}}", "", "");
             }

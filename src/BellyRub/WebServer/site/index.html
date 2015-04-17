@@ -9,28 +9,18 @@
     <script type="text/javascript" src="/js/bellyrub-client.js"></script>
 
      <script type="text/javascript">
-        window.moveTo(100, 100);
-        var client = createBellyRubClient();
-        client.onconnected = function() {
-            client.request('belly:get-bellyrub-client-content', {}, function (msg) {
-                console.log(msg);
-                document.getElementById('jsclientcode').innerHTML = msg.content;
-            });
-        };
-        client.ondisconnected = function() {
-            console.log('disconnected');
-            // Fool firefox into thinking it can close the window
-            window.open('','_parent',''); 
-            window.close(); 
-        };
-        client.handlers['shutdown'] = function (body) {
-            client.disconnect();
-        };
-
-        window.onbeforeunload = function () {
-            client.disconnect();
-        };
+        var client = createBellyRubClient(); 
         console.log('connecting..');
+        client.onconnected = function () {
+            client.send('hello-server', 'hello world from client');
+            client.request('ping-server', '', function (m) { console.log(m); });
+        };
+        client.handlers['hello-client'] = function (msg, respondWith) {
+            console.log(msg);
+        };
+        client.handlers['ping-client'] = function (msg, respondWith) {
+            respondWith('pong from client');
+        }; 
         client.connect(); 
     </script>   
 </head>
@@ -40,7 +30,6 @@
     <p>
     You are seeing this page because you have not yet set up a files directory.
     </p>
-    <div id="jsclientcode"></div>
 </div>
 </body>
 </html>

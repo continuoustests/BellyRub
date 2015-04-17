@@ -19,20 +19,19 @@ namespace BellyRub.TestClient
                     Thread.Sleep(50);
                 }
             };
-            var browser = engine
-                .OnConnected(() =>  {
-                    Console.WriteLine("Client connected");
-                })
-                .OnDisconnected(() => {
-                    Console.WriteLine("Client disconnected");
-                })
-                .OnSendException((ex) => {
-                    Console.WriteLine(ex.ToString());
-                })
+            var browser = engine 
+                .OnConnected(() => Console.WriteLine("Client connected"))
+                .OnDisconnected(() => Console.WriteLine("Client disconnected"))
+                .OnSendException((ex) => Console.WriteLine(ex.ToString()))
+                .On("hello-server", (m) => Console.WriteLine(m))
+                .RespondTo("ping-server", (m, with) => with("pong from server"))
                 .Start(new Point(100, 100));
 
             engine.WaitForFirstClientToConnect();
-            browser.BringToFront();
+            engine.Send("hello-client", "hello world from server");
+            Console.WriteLine(engine.Request("ping-client"));
+
+            browser.BringToFront(); 
 
             while (engine.HasConnectedClients) {
                 Thread.Sleep(50);
