@@ -32,7 +32,9 @@ namespace BellyRub.WebServer
             var port = new Random().Next(1025, 65535);
             try {
                 var url = "http://localhost:" + port.ToString();
-                _host = new NancyHost(new Uri(url));
+                var config = new HostConfiguration();
+                config.RewriteLocalhost = false;
+                _host = new NancyHost(config, new Uri(url));
                 _host.Start();
                 Url = url;
                 return true;

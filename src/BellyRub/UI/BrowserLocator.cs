@@ -18,11 +18,27 @@ namespace BellyRub.UI
         }
 
         private BrowserInstance findInWindows() {
-            var pf = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);
-            if (File.Exists(Path.Combine(pf, "Google", "Chrome", "Application", "Chrome.exe"))) {
+            var pf = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles);
+            var pf86 = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);
+            var appDataLocal = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            if (File.Exists(Path.Combine(appDataLocal, "Google", "Chrome", "Application", "Chrome.exe"))) {
+                return 
+                    new BrowserInstance(
+                        Path.Combine(appDataLocal, "Google", "Chrome", "Application", "Chrome.exe"),
+                        "--app={{url}}",
+                        "--window-position={{x}},{{y}}",
+                        "--window-size={{width}},{{height}}");
+            } else if (File.Exists(Path.Combine(pf, "Google", "Chrome", "Application", "Chrome.exe"))) {
                 return 
                     new BrowserInstance(
                         Path.Combine(pf, "Google", "Chrome", "Application", "Chrome.exe"),
+                        "--app={{url}}",
+                        "--window-position={{x}},{{y}}",
+                        "--window-size={{width}},{{height}}");
+            } else if (File.Exists(Path.Combine(pf86, "Google", "Chrome", "Application", "Chrome.exe"))) {
+                return 
+                    new BrowserInstance(
+                        Path.Combine(pf86, "Google", "Chrome", "Application", "Chrome.exe"),
                         "--app={{url}}",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
