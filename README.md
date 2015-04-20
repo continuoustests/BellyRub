@@ -62,7 +62,7 @@ Put an index html file in the directory specified in your main method with somet
     <script type="text/javascript" src="/js/bellyrub-client.js"></script>
 
      <script type="text/javascript">
-        // Createthe bellyrub client
+        // Create the bellyrub client
         var client = createBellyRubClient(); 
         console.log('connecting..');
         // When connected communicate a bit
