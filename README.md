@@ -20,6 +20,7 @@ namespace MyApplication
 		static void Main(string[] args)
 		{
             // Set a path where we keep our html code and create the engine
+            // Use a site directory located in the same folder as your executable
             var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "site");
             var engine = new BellyEngine(path);
             // Set up messaging to talk to your UI code and start the engine
