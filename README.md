@@ -4,7 +4,7 @@ BellyRub is a library for writing cross platform desktop applications using .NET
 
 Just pull the source code and run deploy.sh/deploy.bat to compile it. You will find the complied library in the ReleaseBinaries folder. If you want to see how it works you can try the BellyRub.TestClient
 
-Just create any console/windowed .Net application and put this in your main method
+If you wnat to try writing an application with it create any console/windowed .Net application and put this in your main method
 ```C#
 using System;
 using System.IO;
@@ -48,7 +48,7 @@ namespace MyApplication
 }
 ```
 
-Put an index html file in the directory specified in your main method with something like this.
+Put an index html file in the directory specified in your main method with something like this. If you want the html code to follow the .Net app just add them to the .Net project and choose copy always.
 ```html
 <!DOCTYPE html>
 <html>
