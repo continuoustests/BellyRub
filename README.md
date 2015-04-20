@@ -1,6 +1,6 @@
 # BellyRub
 
-BellyRub is a library for writing cross platform desktop applications using .NET and HTML. when you start bellyrub it will scan the machine for any known browsers and start it up in application mode for your application.
+BellyRub is a library for writing cross platform desktop applications using .NET and HTML. when you start bellyrub it will scan the machine for any known browsers and start it up in application mode for your application. On the .Net side it uses dynamic objects through Json.Net while on the client end you can expect json objects.
 
 Just pull the source code and run deploy.sh/deploy.bat to compile it. You will find the complied library in the ReleaseBinaries folder. If you want to see how it works you can try the BellyRub.TestClient
 
