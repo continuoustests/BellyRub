@@ -21,6 +21,7 @@ namespace BellyRub
             }
         }
 
+        private Random _portChooser = new Random();
         private WebServer.Server _server;
         private Messaging.Channel _channel;
         private UI.Browser _client;
@@ -28,7 +29,7 @@ namespace BellyRub
         private Dictionary<string, Action<dynamic, Action<object>>> _responders = new Dictionary<string, Action<dynamic, Action<object>>>();
 
         public bool HasConnectedClients { get { return _channel.HasConnectedClients; } }
-        public string ServerUrl { get { return _server.Url; } }
+        public string ServerUrl { get { return _server.Url + "/site/index.html?channel="+_channel.Url; } }
         public string ChannelUrl { get { return _channel.Url; } }
 
         public BellyEngine() {
@@ -68,12 +69,42 @@ namespace BellyRub
             return Start(null, null);
         }
 
+        public UI.Browser Start(int serverPort) {
+            return Start(serverPort, null, null);
+        }
+
+        public UI.Browser Start(int serverPort, int channelPort) {
+            return Start(serverPort, channelPort, null, null);
+        }
+
         public UI.Browser Start(UI.Point position) {
             return Start(position, null);
         }
 
+        public UI.Browser Start(int serverPort, UI.Point position) {
+            return Start(serverPort, position, null);
+        } 
+
+        public UI.Browser Start(int serverPort, int channelPort, UI.Point position) {
+            return Start(serverPort, channelPort, position, null);
+        }
+
         public UI.Browser Start(UI.Point position, UI.Size size) {
             StartHeadless();
+            return start(position, size);
+        }
+
+        public UI.Browser Start(int serverPort, UI.Point position, UI.Size size) {
+            StartHeadless(serverPort);
+            return start(position, size);
+        }
+
+        public UI.Browser Start(int serverPort, int channelPort, UI.Point position, UI.Size size) {
+            StartHeadless(serverPort, channelPort);
+            return start(position, size);
+        }
+
+        public UI.Browser start(UI.Point position, UI.Size size) {
             _client = new UI.Browser(() => {
                 var body = Request("belly:get-window-title");
                 if (body != null)
@@ -87,15 +118,32 @@ namespace BellyRub
         }
 
         public void StartHeadless() {
+            var serverPort = _portChooser.Next(1025, 65535);
+            var channelPort = _portChooser.Next(1025, 65535);
+            StartHeadless(serverPort, channelPort);
+        }
+
+        public void StartHeadless(int serverPort) {
+            var channelPort = _portChooser.Next(1025, 65535);
+            StartHeadless(serverPort, channelPort);
+        }
+
+        public void StartHeadless(int serverPort, int channelPort) {
             _server = new WebServer.Server();
-            _server.Start();
-            _channel.Start();
+            _server.Start(serverPort);
+            _channel.Start(channelPort);
         }
 
         public void WaitForFirstClientToConnect() {
             if (_channel == null)
                 return;
             _channel.WaitForFirstClientToConnect();
+        }
+
+        public void WaitForFirstClientToConnect(int timeout) {
+            if (_channel == null)
+                return;
+            _channel.WaitForFirstClientToConnect(timeout);
         }
 
         public void Stop() {

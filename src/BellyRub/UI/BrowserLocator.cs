@@ -25,21 +25,21 @@ namespace BellyRub.UI
                 return 
                     new BrowserInstance(
                         Path.Combine(appDataLocal, "Google", "Chrome", "Application", "Chrome.exe"),
-                        "--app={{url}} --kiosk",
+                        "--app={{url}} --kiosk --new-window",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
             } else if (File.Exists(Path.Combine(pf, "Google", "Chrome", "Application", "Chrome.exe"))) {
                 return 
                     new BrowserInstance(
                         Path.Combine(pf, "Google", "Chrome", "Application", "Chrome.exe"),
-                        "--app={{url}} --kiosk",
+                        "--app={{url}} --kiosk --new-window",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
             } else if (File.Exists(Path.Combine(pf86, "Google", "Chrome", "Application", "Chrome.exe"))) {
                 return 
                     new BrowserInstance(
                         Path.Combine(pf86, "Google", "Chrome", "Application", "Chrome.exe"),
-                        "--app={{url}} --kiosk",
+                        "--app={{url}} --kiosk --new-window",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
             }
@@ -51,14 +51,14 @@ namespace BellyRub.UI
                 return 
                     new BrowserInstance(
                         "/opt/google/chrome/chrome",
-                        "--app={{url}} --kiosk",
+                        "--app={{url}} --kiosk --new-window",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
             } else if (File.Exists("/usr/bin/chromium-browser")) {
                 return 
                     new BrowserInstance(
                         "/usr/bin/chromium-browser",
-                        "--app={{url}} --kiosk",
+                        "--app={{url}} --kiosk --new-window",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}");
             } else if (File.Exists("/usr/bin/firefox")) {
@@ -68,7 +68,7 @@ namespace BellyRub.UI
             } else if (File.Exists("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")) {
                 new BrowserInstance(
                         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-                        "--app={{url}} --kiosk",
+                        "--app={{url}} --kiosk --new-window",
                         "--window-position={{x}},{{y}}",
                         "--window-size={{width}},{{height}}"); 
             } else if (File.Exists("/Applications/Firefox.app/Contents/MacOS/firefox-bin")) {

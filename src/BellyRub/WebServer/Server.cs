@@ -15,10 +15,10 @@ namespace BellyRub.WebServer
 
         public string Url { get; private set; }
 
-        public void Start() {
+        public void Start(int port) {
             generateDefaultSite();
             while (true) {
-                if (start())
+                if (start(port))
                     break;
             }
         }
@@ -28,8 +28,7 @@ namespace BellyRub.WebServer
                 _host.Stop();
         }
 
-        private bool start() {
-            var port = new Random().Next(1025, 65535);
+        private bool start(int port) {
             try {
                 var url = "http://localhost:" + port.ToString();
                 var config = new HostConfiguration();

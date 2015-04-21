@@ -51,9 +51,9 @@ namespace BellyRub.Messaging
             return this;
         }
 
-        public void Start() {
+        public void Start(int port) {
             while (true) {
-                if (start())
+                if (start(port))
                     break;
             }
         }
@@ -69,6 +69,10 @@ namespace BellyRub.Messaging
 
         public void WaitForFirstClientToConnect() {
             waitForFirstClient();
+        }
+
+        public void WaitForFirstClientToConnect(int timeout) {
+            waitForFirstClient(timeout);
         }
 
         public void Send(string subject, object body) {
@@ -109,8 +113,7 @@ namespace BellyRub.Messaging
             return null;
         }
 
-        private bool start() {
-            var port = new Random().Next(1025, 65535);
+        private bool start(int port) {
             try {
                 var url = "ws://localhost:" + port.ToString();
                 _server = new WebSocketServer(url);
@@ -125,7 +128,13 @@ namespace BellyRub.Messaging
         }
 
         private void waitForFirstClient() {
-            var timeout = DateTime.Now.AddSeconds(10);
+            while (!HasConnectedClients) {
+                Thread.Sleep(10);
+            }
+        }
+
+        private void waitForFirstClient(int seconds) {
+            var timeout = DateTime.Now.AddSeconds(seconds);
             while (!HasConnectedClients && DateTime.Now < timeout) {
                 Thread.Sleep(10);
             }
