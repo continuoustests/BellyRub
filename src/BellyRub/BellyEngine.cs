@@ -28,6 +28,8 @@ namespace BellyRub
         private Dictionary<string, Action<dynamic, Action<object>>> _responders = new Dictionary<string, Action<dynamic, Action<object>>>();
 
         public bool HasConnectedClients { get { return _channel.HasConnectedClients; } }
+        public string ServerUrl { get { return _server.Url; } }
+        public string ChannelUrl { get { return _channel.Url; } }
 
         public BellyEngine() {
             initialize(null);
@@ -71,16 +73,23 @@ namespace BellyRub
         }
 
         public UI.Browser Start(UI.Point position, UI.Size size) {
-            _server = new WebServer.Server();
-            _server.Start();
-            _channel.Start();
+            StartHeadless();
             _client = new UI.Browser(() => {
-                return Request("belly:get-window-title").title;
+                var body = Request("belly:get-window-title");
+                if (body != null)
+                    return body.title;
+                return "";
             });
-            var url =_server.Url; 
+            var url = _server.Url; 
             var ws = _channel.Url;
             _client.Launch(url, ws, position, size);
             return _client;
+        }
+
+        public void StartHeadless() {
+            _server = new WebServer.Server();
+            _server.Start();
+            _channel.Start();
         }
 
         public void WaitForFirstClientToConnect() {
@@ -93,7 +102,8 @@ namespace BellyRub
             _channel.Stop();
             if (_server != null)
                 _server.Stop();
-            _client.Kill();
+            if (_client != null)
+                _client.Kill();
         }
 
         public void Send(string subject) {
